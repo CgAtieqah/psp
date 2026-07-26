@@ -32,6 +32,14 @@ const lessons = [
     highlight2: 1700
   },
   {
+    id: 'zizip',
+    part1: 'ZI',
+    part2: 'ZIP',
+    audio: 'audio/zizip.mp3',
+    highlight1: 200,
+    highlight2: 1700
+  },
+{
     id: 'zizip2',
     part1: 'ZI',
     part2: 'ZIP',
@@ -41,3 +49,4 @@ const lessons = [
   }
   
 ];
+
