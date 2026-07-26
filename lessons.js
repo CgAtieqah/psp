@@ -32,7 +32,7 @@ const lessons = [
     highlight2: 1700
   },
   {
-    id: 'zizip',
+    id: 'zizip2',
     part1: 'ZI',
     part2: 'ZIP',
     audio: 'audio/zizip.mp3',
