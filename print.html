@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Print Flash Card</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        background: white;
+
+        margin: 0;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        height: 100vh;
+      }
+
+      .flashcard {
+        width: 500px;
+
+        height: 700px;
+
+        border: 3px solid black;
+
+        border-radius: 20px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        gap: 30px;
+      }
+
+      .word {
+        font-size: 80px;
+
+        font-weight: bold;
+      }
+
+      #qrcode img {
+        width: 220px;
+
+        height: 220px;
+      }
+
+      @media print {
+        button {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flashcard">
+      <div id="part1" class="word"></div>
+
+      <div id="part2" class="word"></div>
+
+      <div id="qrcode"></div>
+
+      <button onclick="window.print()">🖨️ Print</button>
+    </div>
+
+    <script src="lessons.js"></script>
+
+    <script src="print.js"></script>
+  </body>
+</html>

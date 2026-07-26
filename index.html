@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Belajar Membaca</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <button id="printBtn" class="print-button">🖨️</button>
+
+    <div class="lesson-list-container">
+      <button id="listBtn" class="list-button">📚 Senarai</button>
+
+      <div id="lessonList" class="lesson-list hidden"></div>
+    </div>
+
+    <div class="background-shape shape1"></div>
+
+    <div class="background-shape shape2"></div>
+
+    <main class="app-container">
+      <div class="intro-container">
+        <div class="school-tag">🏫 SK METHODIST PELABUHAN KLANG</div>
+
+        <h1 class="main-title">
+          JOM SEBUT KVK<br />
+
+          BERSAMA CIKGU ATIEQAH!
+        </h1>
+
+        <div class="unit-tag">✨ UNIT PEMULIHAN ✨</div>
+      </div>
+
+      <div class="learning-card">
+        <div class="mouth">👄</div>
+
+        <div class="instruction">Sebut bersama cikgu!</div>
+
+        <div class="word-container">
+          <div id="part1" class="syllable"></div>
+
+          <div id="part2" class="syllable"></div>
+        </div>
+
+        <div class="buttons">
+          <button id="prevBtn" class="secondary">⬅ Sebelum</button>
+
+          <button id="playBtn" class="play">🔊 Dengar</button>
+
+          <button id="nextBtn" class="secondary">Seterusnya ➡</button>
+        </div>
+      </div>
+    </main>
+
+    <audio id="audio"></audio>
+
+    <script src="lessons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
