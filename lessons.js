@@ -63,6 +63,14 @@ const lessons = [
     highlight1: 200,
     highlight2: 1700
   },
+  {
+    id: 'mamak',
+    part1: 'MA',
+    part2: 'MAK',
+    audio: 'audio/mamak.mp3',
+    highlight1: 200,
+    highlight2: 1700
+  },
 
 
   
