@@ -87,6 +87,14 @@ const lessons = [
     highlight1: 200,
     highlight2: 1700
   },
+  {
+    id: 'sasam',
+    part1: 'SA',
+    part2: 'SAM',
+    audio: 'audio/sasam.m4a',
+    highlight1: 200,
+    highlight2: 1700
+  },
 
   
 ];
