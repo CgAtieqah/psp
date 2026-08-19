@@ -95,6 +95,14 @@ const lessons = [
     highlight1: 200,
     highlight2: 1700
   },
+  {
+    id: 'bubuh',
+    part1: 'BU',
+    part2: 'BUH',
+    audio: 'audio/bubuh.m4a',
+    highlight1: 200,
+    highlight2: 1700
+  },
 
   
 ];
